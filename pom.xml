@@ -4,7 +4,7 @@
   <groupId>com.netradius</groupId>
   <artifactId>checkstyle-config</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-    <distributionManagement>
+  <distributionManagement>
       <repository>
       <id>netradius-releases</id>
       <name>Netradius Release Repository</name>
