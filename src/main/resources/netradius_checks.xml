@@ -160,7 +160,7 @@
         <module name="AbbreviationAsWordInName">
             <property name="ignoreFinal" value="false"/>
             <!-- MODIFIED -->
-            <property name="allowedAbbreviationLength" value="3"/>
+            <property name="allowedAbbreviationLength" value="4"/>
         </module>
         <module name="OverloadMethodsDeclarationOrder"/>
         <module name="VariableDeclarationUsageDistance"/>
@@ -197,6 +197,8 @@
             <property name="target" value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, METHOD_DEF, CTOR_DEF, VARIABLE_DEF"/>
         </module>
         <module name="JavadocMethod">
+            <!-- MODIFIED -->
+            <property name="allowMissingJavadoc" value="true" />
             <property name="scope" value="public"/>
             <property name="allowMissingParamTags" value="true"/>
             <property name="allowMissingThrowsTags" value="true"/>
