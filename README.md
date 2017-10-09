@@ -33,7 +33,7 @@ pom.xml file like shown below. You may need to adjust versions as necessary.
             <dependency>
                 <groupId>com.netradius</groupId>
                 <artifactId>checkstyle-config</artifactId>
-                <version>0.0.2-SNAPSHOT</version>
+                <version>0.0.2</version>
             </dependency>
             <dependency>
                 <groupId>com.puppycrawl.tools</groupId>
