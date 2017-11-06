@@ -5,6 +5,7 @@ These styles are small modifications to those by used by Googles which are
 documented at 
 
 https://google-styleguide.googlecode.com/svn-history/r130/trunk/javaguide.html
+https://github.com/google/styleguide
 
 To use this checkstyle configuration, add the plugin configuration to your maven
 pom.xml file like shown below. You may need to adjust versions as necessary.
